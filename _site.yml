@@ -1,4 +1,4 @@
-name: "#jolana"
+name: "my-website"
 output_dir: docs
 # The website theme was chosen from
 # https://rmarkdown.rstudio.com/html_document_format#appearance_and_style
@@ -7,19 +7,19 @@ output:
     toc: yes
     toc_float: yes
     toc_depth: 2
-    theme: journal
+    theme: cosmo
     highlight: tango
     df_print: paged
     lib_dir: site_libs
     self_contained: no
 # All fa icons were obtained from https://fontawesome.com/icons?d=gallery
 navbar:
-  title: "Inefficiency Hiding in Plain Sight: Uber and the Gig Economy"
+  title: "My Website"
   left:
-    - text: "The Problem"
+    - text: "Home"
       href: index.html
-    - text: "The Breakdown"
-      href: more_info.html
-#  right:
-#    - icon: fa-slack fa-lg
-#      href: https://2018-fall-sds-albert.slack.com/
+    - text: "About"
+      href: about.html
+  right:
+    - icon: fa-slack fa-lg
+      href: https://2018-fall-sds-albert.slack.com/
